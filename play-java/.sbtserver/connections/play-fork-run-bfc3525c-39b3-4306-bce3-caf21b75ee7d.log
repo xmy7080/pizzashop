@@ -1,0 +1,9 @@
+New log file opened at Mon Oct 03 23:23:36 PDT 2016 by 13430@XiMuyuans-MacBook-Pro.local
+Sending msg to client play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /Users/ximuyuan/play-java/.sbtserver/connections/master.log))
+Sending msg to client play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /Users/ximuyuan/play-java/.sbtserver/connections/play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d.log))
+Sending msg to client play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /Users/ximuyuan/play-java/.sbtserver/master.log))
+Reading next message from client.
+Client play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d EOF, shutting down.
+Stopping client.
+Client play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-bfc3525c-39b3-4306-bce3-caf21b75ee7d

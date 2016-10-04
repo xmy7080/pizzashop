@@ -1,0 +1,43 @@
+@*
+ * This template is called from the `index` template. This template
+ * handles the rendering of the page header and body tags. It takes
+ * two arguments, a `String` for the title of the page and an `Html`
+ * object to insert into the body of the page.
+ *@
+@(orders: List[Orders])(unauthmessage: String)
+<h1>@unauthmessage</h1>
+<h1>orders so far</h1>
+
+<table class="table table-striped">
+
+                    @if(orders.isEmpty) {
+                    <tr>
+                        <th>Not Found</th>
+                    </tr>
+                    } else {
+                    <thead>
+                    <tr>
+                        <th>pizza kind</th>
+                        <th>slices</th>
+                    </tr>
+                    </thead>
+                    
+                    <tbody>
+                    @for(x <- orders) {
+                        <tr>
+                            <th>@x.kind</th>
+                            <th>@x.number</th>
+                        </tr>
+                    }
+                    </tbody>
+                    }
+
+</table>
+    <a href="@routes.HomeController.orderIndex()">back</a>
+    <a href="@routes.Users.logout()">log out</a>
+  <!--<h1>@orders.size() items!</h1>-->
+  <!--  @for(order <- orders) {-->
+  <!--      <li>@order.kind</li>-->
+  <!--      <li>@order.number</li>-->
+  <!--  }-->
+  

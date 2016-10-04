@@ -1,0 +1,27 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <h>@message</h>
+</head>    
+<body>
+<form method="post" action="order">
+  <!--order id: <input type="text" name="id" /><br/>-->
+  pizza type: <input type="text" name="kind" /><br/>
+  how many slices: <input type="text" name="number" /><br/>
+
+  <input type="submit" value="order" />
+</form>
+    <h></h>
+    
+    <a href="@routes.Users.logout()">log out</a>
+    <a href="@routes.HomeController.viewOrder()">view orders</a>
+</body>
+</html>

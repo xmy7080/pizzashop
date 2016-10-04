@@ -1,0 +1,25 @@
+@(message: String)
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <h>create new user.</h>
+</head>    
+<body>
+<form method="post" action="signup">
+  <input type="text" name="username" /><br/>
+  <input type="password" name="password" /><br/>
+
+  <input type="submit" value="sign up" />
+</form>
+    <h>@message</h>
+    <a href="@routes.HomeController.index()">back to login</a>
+</body>
+</html>
