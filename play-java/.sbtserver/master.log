@@ -1,5 +1,5 @@
-New log file opened at Mon Oct 03 23:18:57 PDT 2016 by 13430@XiMuyuans-MacBook-Pro.local
-jvm 13430@XiMuyuans-MacBook-Pro.local
+New log file opened at Tue Oct 04 11:00:41 PDT 2016 by 13927@XiMuyuans-MacBook-Pro.local
+jvm 13927@XiMuyuans-MacBook-Pro.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.101-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -7,16 +7,16 @@ Starting event engine
 Starting sbt command engine
 Waiting for sbt command engine
 Command engine arguments=List()
-Command engine baseDirectory=/Users/ximuyuan/play-java
+Command engine baseDirectory=/Users/ximuyuan/Develop/play/pizzashop/play-java
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
 > initialize
 > onFailure load-failed
 > boot
 > reload
-[Loading] Scanning directory /Users/ximuyuan/play-java/project/project
+[Loading] Scanning directory /Users/ximuyuan/Develop/play/pizzashop/play-java/project/project
 [Loading] Found non-root projects 
-[Loading] Done in /Users/ximuyuan/play-java/project/project, returning: ()
+[Loading] Done in /Users/ximuyuan/Develop/play/pizzashop/play-java/project/project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -25,9 +25,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in /Users/ximuyuan/play-java/project/project, returning: (play-java-build-build)
-Loading project definition from /Users/ximuyuan/play-java/project/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@23113e63, check cycles: false
+[Loading] Done in /Users/ximuyuan/Develop/play/pizzashop/play-java/project/project, returning: (play-java-build-build)
+Loading project definition from /Users/ximuyuan/Develop/play/pizzashop/play-java/project/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@12c6f28e, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -46,9 +46,9 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory /Users/ximuyuan/play-java/project
+[Loading] Scanning directory /Users/ximuyuan/Develop/play/pizzashop/play-java/project
 [Loading] Found non-root projects 
-[Loading] Done in /Users/ximuyuan/play-java/project, returning: ()
+[Loading] Done in /Users/ximuyuan/Develop/play/pizzashop/play-java/project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -57,9 +57,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in /Users/ximuyuan/play-java/project, returning: (play-java-build)
-Loading project definition from /Users/ximuyuan/play-java/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@23113e63, check cycles: false
+[Loading] Done in /Users/ximuyuan/Develop/play/pizzashop/play-java/project, returning: (play-java-build)
+Loading project definition from /Users/ximuyuan/Develop/play/pizzashop/play-java/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@12c6f28e, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -78,7 +78,7 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory /Users/ximuyuan/play-java
+[Loading] Scanning directory /Users/ximuyuan/Develop/play/pizzashop/play-java
 [Loading] Found root project root w/ remaining 
 deducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(play.ebean.sbt.PlayEbean), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(org.irundaia.sbt.sass.SbtSassify),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLogback))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(org.irundaia.sbt.sass.SbtSassify)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,play.ebean.sbt.PlayEbean,play.sbt.PlayJava,com.typesafe.play.sbt.enhancer.PlayEnhancer,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,play.sbt.PlayLogback,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbteclipse.plugin.EclipsePlugin,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.docker.DockerPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.packager.debian.DebianPlugin,org.irundaia.sbt.sass.SbtSassify,com.typesafe.sbt.digest.SbtDigest,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
@@ -92,90 +92,256 @@ sorting: ns: List(sbt.plugins.CorePlugin, play.ebean.sbt.PlayEbean, play.sbt.Pla
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun)
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun)
-[Loading] Done in /Users/ximuyuan/play-java, returning: (root)
-Set current project to play-java (in build file:/Users/ximuyuan/play-java/)
+[Loading] Done in /Users/ximuyuan/Develop/play/pizzashop/play-java, returning: (root)
+Set current project to play-java (in build file:/Users/ximuyuan/Develop/play/pizzashop/play-java/)
 Reapplying settings...
-Set current project to play-java (in build file:/Users/ximuyuan/play-java/)
+Set current project to play-java (in build file:/Users/ximuyuan/Develop/play/pizzashop/play-java/)
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/compile:discoveredMainClasses
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@5460bcbb, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4afeb946, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
 
-Total time: 1 s, completed Oct 3, 2016 11:19:04 PM
+Read from stdout: Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@62895628 directly...
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:40: method render in class views.html.order cannot be applied to given types;
+Read from stdout: required: java.lang.String
+Read from stdout: found: java.lang.String,java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:40: method render in class views.html.order cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: order.render
+order.render
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:50: method render in class views.html.order cannot be applied to given types;
+Read from stdout: required: java.lang.String
+Read from stdout: found: java.lang.String,java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:50: method render in class views.html.order cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: order.render
+order.render
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed Oct 4, 2016 11:00:50 AM
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/compile:mainClass
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@2d8f61f8, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:19:04 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@b419a05, check cycles: false
+Total time: 0 s, completed Oct 4, 2016 11:00:50 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/compile:discoveredMainClasses
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@4479f1a1, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@62e7452d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
 
-Total time: 1 s, completed Oct 3, 2016 11:19:05 PM
+Read from stdout: Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@5566c274 directly...
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:40: method render in class views.html.order cannot be applied to given types;
+Read from stdout: required: java.lang.String
+Read from stdout: found: java.lang.String,java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:40: method render in class views.html.order cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: order.render
+order.render
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:50: method render in class views.html.order cannot be applied to given types;
+Read from stdout: required: java.lang.String
+Read from stdout: found: java.lang.String,java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:50: method render in class views.html.order cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: order.render
+order.render
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Oct 4, 2016 11:00:51 AM
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/compile:mainClass
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e9c18bc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
+
+Read from stdout: Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@12dba2d0 directly...
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:40: method render in class views.html.order cannot be applied to given types;
+Read from stdout: required: java.lang.String
+Read from stdout: found: java.lang.String,java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:40: method render in class views.html.order cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: order.render
+order.render
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:50: method render in class views.html.order cannot be applied to given types;
+Read from stdout: required: java.lang.String
+Read from stdout: found: java.lang.String,java.lang.String
+Read from stdout: reason: actual and formal argument lists differ in length
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java:50: method render in class views.html.order cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+Read from stdout: order.render
+order.render
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Oct 4, 2016 11:00:52 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@40d67efa, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:19:05 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@6bdfd0a2, check cycles: false
+Total time: 0 s, completed Oct 4, 2016 11:00:52 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7c7a197e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/ximuyuan/Develop/play/pizzashop/play-java/app/models/Orders.java, /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java)
+
+Read from stdout: Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Compiling 2 Java sources to /Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@74c589f1 directly...
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
+Read from stdout: /Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+/Users/ximuyuan/Develop/play/pizzashop/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.159743794 s
+Java analysis took 0.028787837 s
+Java compile + analysis took 0.19481069 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed Oct 4, 2016 11:03:19 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@1591a994, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:19:56 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@4ed3db28, check cycles: false
+Total time: 0 s, completed Oct 4, 2016 11:03:19 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkConfig
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@2b381db7, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:19:59 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b5f003e, check cycles: false
+Total time: 0 s, completed Oct 4, 2016 11:03:22 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@135064b4, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:20:00 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@2c3d37c, check cycles: false
+Total time: 0 s, completed Oct 4, 2016 11:03:24 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkReload
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@7a3bd778, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4ea9df35, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -194,18 +360,18 @@ All initially invalidated sources: Set()
 
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
 Copy resource mappings: 
-	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)
-	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)
-	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)
-	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)
-	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)
-	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 2 s, completed Oct 3, 2016 11:20:05 PM
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/application.conf,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/application.conf)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/evolutions,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/evolutions)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/logback.xml,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/logback.xml)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/routes,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/routes)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/evolutions/default,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/evolutions/default)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 1 s, completed Oct 4, 2016 11:04:00 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkReload
+> {file:/Users/ximuyuan/Develop/play/pizzashop/play-java/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@4ded1a9a, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@3e6d5343, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -223,444 +389,19 @@ Sources indirectly invalidated by:
 All initially invalidated sources: Set()
 
 Copy resource mappings: 
-	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)
-	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)
-	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)
-	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)
-	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)
-	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 1 s, completed Oct 3, 2016 11:20:10 PM
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/application.conf,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/application.conf)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/evolutions,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/evolutions)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/logback.xml,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/logback.xml)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/routes,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/routes)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/evolutions/default,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/evolutions/default)
+	(/Users/ximuyuan/Develop/play/pizzashop/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/Develop/play/pizzashop/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 1 s, completed Oct 4, 2016 11:04:06 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@260bb4aa, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/ximuyuan/play-java/app/controllers/HomeController.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/ximuyuan/play-java/app/controllers/HomeController.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/ximuyuan/play-java/app/controllers/HomeController.java)
-
-Read from stdout: Compiling 1 Java source to /Users/ximuyuan/play-java/target/scala-2.11/classes...
-Compiling 1 Java source to /Users/ximuyuan/play-java/target/scala-2.11/classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@26cabbdd directly...
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/HomeController.java: /Users/ximuyuan/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
-/Users/ximuyuan/play-java/app/controllers/HomeController.java: /Users/ximuyuan/play-java/app/controllers/HomeController.java uses or overrides a deprecated API.
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
-/Users/ximuyuan/play-java/app/controllers/HomeController.java: Recompile with -Xlint:deprecation for details.
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/HomeController.java: /Users/ximuyuan/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
-/Users/ximuyuan/play-java/app/controllers/HomeController.java: /Users/ximuyuan/play-java/app/controllers/HomeController.java uses unchecked or unsafe operations.
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
-/Users/ximuyuan/play-java/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.
-Java compilation took 0.786930674 s
-Java analysis took 0.23668363 s
-Java compile + analysis took 1.034924664 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Oct 3, 2016 11:22:54 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 1
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@c4d8458, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:22:54 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@5ef89af4, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:22:54 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@21afeffb, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/Users/ximuyuan/play-java/app/models/Order.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/ximuyuan/play-java/app/models/Order.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/ximuyuan/play-java/app/models/Order.java)
-
-Read from stdout: Compiling 1 Java source to /Users/ximuyuan/play-java/target/scala-2.11/classes...
-Compiling 1 Java source to /Users/ximuyuan/play-java/target/scala-2.11/classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@40a1e975 directly...
-Read from stdout: /Users/ximuyuan/play-java/app/models/Order.java:10: class Orders is public, should be declared in a file named Orders.java
-/Users/ximuyuan/play-java/app/models/Order.java:10: class Orders is public, should be declared in a file named Orders.java
-Read from stdout: @Entity
-Read from stdout: public class Orders extends Model{
-Read from stdout: //  public static Model.Find<Long, User> find = new Model.Find<Long, User>(){};
-Read from stdout: 
-Read from stdout: @Id
-Read from stdout: public Integer id;
-Read from stdout: 
-Read from stdout: public String type;
-Read from stdout: public Integer slices;
-Read from stdout: //     public String getUsername(){
-Read from stdout: //         return find.where().eq("username","xmy").findList()[0];
-Read from stdout: //     }
-Read from stdout: 
-Read from stdout: }
-@Entity
- public class Orders extends Model{
-    //  public static Model.Find<Long, User> find = new Model.Find<Long, User>(){};
-
-     @Id
-     public Integer id;
-     
-     public String type;
-     public Integer slices;
-//     public String getUsername(){
-//         return find.where().eq("username","xmy").findList()[0];
-//     }
-    
- }
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Oct 3, 2016 11:22:55 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@32d7ac99, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:22:58 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@643a0106, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:00 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@460e1d10, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Oct 3, 2016 11:23:32 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 2
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@50f45f4f, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:32 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@325077c4, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:32 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@452d190c, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Oct 3, 2016 11:23:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 2
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@481297d6, check cycles: false
-Exception in thread "sbt-bg-threads-2" java.lang.Error: java.lang.InterruptedException: sleep interrupted
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.InterruptedException: sleep interrupted
-	at java.lang.Thread.sleep(Native Method)
-	at play.sbt.forkrun.PlayForkProcess$.timedWaitFor(PlayForkProcess.scala:80)
-	at play.sbt.forkrun.PlayForkProcess$.play$sbt$forkrun$PlayForkProcess$$stop$1(PlayForkProcess.scala:54)
-	at play.sbt.forkrun.PlayForkProcess$.run(PlayForkProcess.scala:70)
-	at play.sbt.forkrun.PlayForkProcess$.apply(PlayForkProcess.scala:35)
-	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:108)
-	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:107)
-	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
-	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	... 2 more
-Total time: 0 s, completed Oct 3, 2016 11:23:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 3
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@2b4239c7, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@211d361b, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@1a430b60, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:38 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@74b80433, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:23:39 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@460729b9, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)
-	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)
-	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)
-	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)
-	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)
-	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 1 s, completed Oct 3, 2016 11:23:43 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@7938fd1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)
-	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)
-	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)
-	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)
-	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)
-	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 1 s, completed Oct 3, 2016 11:23:47 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@159aa96d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/ximuyuan/play-java/app/controllers/Users.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/ximuyuan/play-java/app/controllers/Users.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/ximuyuan/play-java/app/controllers/Users.java)
-
-Read from stdout: Compiling 1 Java source to /Users/ximuyuan/play-java/target/scala-2.11/classes...
-Compiling 1 Java source to /Users/ximuyuan/play-java/target/scala-2.11/classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@16397004 directly...
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/Users.java:67: no suitable method found for redirect(play.twirl.api.Html)
-Read from stdout: method play.mvc.Results.redirect(java.lang.String) is not applicable
-Read from stdout: (argument mismatch; play.twirl.api.Html cannot be converted to java.lang.String)
-Read from stdout: method play.mvc.Results.redirect(play.mvc.Call) is not applicable
-Read from stdout: (argument mismatch; play.twirl.api.Html cannot be converted to play.mvc.Call)
-/Users/ximuyuan/play-java/app/controllers/Users.java:67: no suitable method found for redirect(play.twirl.api.Html)
-    method play.mvc.Results.redirect(java.lang.String) is not applicable
-      (argument mismatch; play.twirl.api.Html cannot be converted to java.lang.String)
-    method play.mvc.Results.redirect(play.mvc.Call) is not applicable
-      (argument mismatch; play.twirl.api.Html cannot be converted to play.mvc.Call)
-Read from stdout: redirect
-redirect
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/Users.java: /Users/ximuyuan/play-java/app/controllers/Users.java uses or overrides a deprecated API.
-/Users/ximuyuan/play-java/app/controllers/Users.java: /Users/ximuyuan/play-java/app/controllers/Users.java uses or overrides a deprecated API.
-Read from stdout: /Users/ximuyuan/play-java/app/controllers/Users.java: Recompile with -Xlint:deprecation for details.
-/Users/ximuyuan/play-java/app/controllers/Users.java: Recompile with -Xlint:deprecation for details.
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed Oct 3, 2016 11:26:37 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1c788929, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed Oct 3, 2016 11:26:59 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 4
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@7ae77a82, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:26:59 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@193023e7, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:27:00 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@4cf3b094, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:27:02 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@556ec39f, check cycles: false
-Total time: 0 s, completed Oct 3, 2016 11:27:04 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@623898d0, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)
-	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)
-	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)
-	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)
-	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)
-	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 1 s, completed Oct 3, 2016 11:27:17 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/ximuyuan/play-java/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@3dcc22c7, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)
-	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)
-	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)
-	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)
-	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)
-	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 1 s, completed Oct 3, 2016 11:27:21 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 13927@XiMuyuans-MacBook-Pro.local logs at Tue Oct 04 11:09:22 PDT 2016, goodbye.

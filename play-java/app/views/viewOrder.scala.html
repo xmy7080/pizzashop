@@ -6,7 +6,6 @@
  *@
 @(orders: List[Orders])(unauthmessage: String)
 <h1>@unauthmessage</h1>
-<h1>orders so far</h1>
 
 <table class="table table-striped">
 
@@ -19,6 +18,7 @@
                     <tr>
                         <th>pizza kind</th>
                         <th>slices</th>
+                        <th>ordered by</th>
                     </tr>
                     </thead>
                     
@@ -27,6 +27,7 @@
                         <tr>
                             <th>@x.kind</th>
                             <th>@x.number</th>
+                            <th>@x.username</th>
                         </tr>
                     }
                     </tbody>

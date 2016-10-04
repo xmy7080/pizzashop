@@ -2,7 +2,7 @@
  * This template takes a single argument, a String containing a
  * message to display.
  *@
-@(message: String)
+@(message: String)(username: String)
 
 
 <!DOCTYPE html>    
@@ -14,9 +14,25 @@
 <body>
 <form method="post" action="order">
   <!--order id: <input type="text" name="id" /><br/>-->
-  pizza type: <input type="text" name="kind" /><br/>
-  how many slices: <input type="text" name="number" /><br/>
-
+  pizza type: <select  name="kind" />
+    <option value="pepperoni">pepperoni</option>
+  <option value="veg">veg</option>
+  <option value="meat ball">meat ball</option>
+  <option value="onion">onion</option>
+  </select>
+  <br/>
+  how many slices: <select name="number" />
+    <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  </select>
+  <br/>
+  <input type="hidden" name="username" value="@username">
   <input type="submit" value="order" />
 </form>
     <h></h>

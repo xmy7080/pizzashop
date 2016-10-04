@@ -35,16 +35,19 @@ public class HomeController extends Controller {
     public Result orderIndex(){
         String user = session("connected");
         User record = User.find.byId(user);
+        String username = record.username;
         String orderstr = "welcome " +record.username+ ", please take your order~";
-        return ok(order.render(orderstr));
+        return ok(order.render(orderstr,username));
     }
     
     public Result order(){
         Orders this_order = Form.form(Orders.class).bindFromRequest().get();
         this_order.save();
-        
+        String user = session("connected");
+        User record = User.find.byId(user);
+        String username = record.username;
         String orderstr = "ordered success! do you want more?";
-        return ok(order.render(orderstr));
+        return ok(order.render(orderstr,username));
         // return redirect(routes.HomeController.orderIndex());
     }
     
@@ -56,11 +59,11 @@ public class HomeController extends Controller {
         }
         User record = User.find.byId(user);
         List<Orders> orders = new Model.Finder(String.class, Orders.class).all();
-        // String orderid = orders.get(0).number.toString();
-        String unauthmessage = "";
+        
+        String unauthmessage = "here is all customers order today.";
         if(!record.isadmin) {
-            unauthmessage = "only admin can view this page.";
-            orders.clear();
+            unauthmessage = "hi "+ record.username+ ", here is your order so far.";
+            orders = Orders.find.where().eq("username", record.username).findList();
         }
         return ok(viewOrder.render(orders, unauthmessage));
     }

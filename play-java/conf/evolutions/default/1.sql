@@ -13,6 +13,7 @@ create table orders (
   id    int  not null AUTO_INCREMENT,
   kind  varchar(255) not null,
   number  int not null,
+  username varchar(255) not null,
   constraint pk_order primary key (id)
 );
 # --- !Downs

@@ -15,6 +15,10 @@ import java.util.List;
      
      public String kind;
      public Integer number;
+     public String username;
+     
+     public static Finder<String, Orders> find = new Finder<String,Orders>(Orders.class);
+
 //     public String getUsername(){
 //         return find.where().eq("username","xmy").findList()[0];
 //     }
